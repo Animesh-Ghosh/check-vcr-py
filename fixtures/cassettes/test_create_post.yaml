@@ -1,0 +1,77 @@
+interactions:
+- request:
+    body: '{"title": "foo", "body": "bar", "userId": 1}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '44'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.28.2
+    method: POST
+    uri: https://jsonplaceholder.typicode.com/posts
+  response:
+    body:
+      string: "{\n  \"title\": \"foo\",\n  \"body\": \"bar\",\n  \"userId\": 1,\n
+        \ \"id\": 101\n}"
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      Access-Control-Expose-Headers:
+      - Location
+      CF-Cache-Status:
+      - DYNAMIC
+      CF-RAY:
+      - 79c8fc09cd0ff3dd-BOM
+      Cache-Control:
+      - no-cache
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '65'
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Mon, 20 Feb 2023 17:32:57 GMT
+      Etag:
+      - W/"41-GDNaWfnVU6RZhpLbye0veBaqcHA"
+      Expires:
+      - '-1'
+      Location:
+      - http://jsonplaceholder.typicode.com/posts/101
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Pragma:
+      - no-cache
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=isc1IY4mwdu06Pfg%2BkDqyD%2B3UIoDZTM8Zfon%2FeIdV8GgAAu5Fs4q1wVILWtKfmFZrM7h4pNCjfdCmwy2hTWZ02u4o%2B2GzK8Ncq7qOmS6dxDkeigrKtjHL7oIbzSBTJ2M11DA%2BVygOJvcoYA8xmbU"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Server-Timing:
+      - cf-q-config;dur=5.0000089686364e-06
+      Vary:
+      - Origin, X-HTTP-Method-Override, Accept-Encoding
+      Via:
+      - 1.1 vegur
+      X-Content-Type-Options:
+      - nosniff
+      X-Powered-By:
+      - Express
+      X-Ratelimit-Limit:
+      - '1000'
+      X-Ratelimit-Remaining:
+      - '997'
+      X-Ratelimit-Reset:
+      - '1676914394'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 201
+      message: Created
+version: 1
