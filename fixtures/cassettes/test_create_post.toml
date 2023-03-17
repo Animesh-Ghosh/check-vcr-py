@@ -1,0 +1,45 @@
+version = 1
+[[interactions]]
+
+[interactions.request]
+method = "POST"
+uri = "https://jsonplaceholder.typicode.com/posts"
+body = "{\"title\": \"foo\", \"body\": \"bar\", \"userId\": 1}"
+[interactions.request.headers]
+User-Agent = [ "python-requests/2.28.2",]
+Accept-Encoding = [ "gzip, deflate",]
+Accept = [ "*/*",]
+Connection = [ "keep-alive",]
+Content-Length = [ "44",]
+Content-Type = [ "application/json",]
+[interactions.response.status]
+code = 201
+message = "Created"
+[interactions.response.headers]
+Pragma = [ "no-cache",]
+X-Powered-By = [ "Express",]
+Via = [ "1.1 vegur",]
+Connection = [ "keep-alive",]
+CF-RAY = [ "7a97d32c5e7685e4-BOM",]
+Etag = [ "W/\"41-GDNaWfnVU6RZhpLbye0veBaqcHA\"",]
+Location = [ "http://jsonplaceholder.typicode.com/posts/101",]
+Cache-Control = [ "no-cache",]
+CF-Cache-Status = [ "DYNAMIC",]
+Server-Timing = [ "cf-q-config;dur=5.9999947552569e-06",]
+NEL = [ "{\"success_fraction\":0,\"report_to\":\"cf-nel\",\"max_age\":604800}",]
+Access-Control-Expose-Headers = [ "Location",]
+X-Ratelimit-Limit = [ "1000",]
+X-Ratelimit-Reset = [ "1679083317",]
+X-Ratelimit-Remaining = [ "999",]
+Access-Control-Allow-Credentials = [ "true",]
+Date = [ "Fri, 17 Mar 2023 20:00:56 GMT",]
+Report-To = [ "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=bW8hwsRj6G%2FEjP7skcrhlQFC5F9A8zes%2FVpsrDC12uaJ8vnQgS%2BuIIuqWTum4ZSfxk2%2F%2BESwCHU2A%2FeNf8SvcKiMTEQ%2BOPHTLjZVY8ylA3YheULGNqNLxZ3JvzJHThBRGXWPb9TZNy3mI8L1vzSc\"}],\"group\":\"cf-nel\",\"max_age\":604800}",]
+Content-Length = [ "65",]
+alt-svc = [ "h3=\":443\"; ma=86400, h3-29=\":443\"; ma=86400",]
+Vary = [ "Origin, X-HTTP-Method-Override, Accept-Encoding",]
+Server = [ "cloudflare",]
+Content-Type = [ "application/json; charset=utf-8",]
+Expires = [ "-1",]
+X-Content-Type-Options = [ "nosniff",]
+[interactions.response.body]
+string = "{\n  \"title\": \"foo\",\n  \"body\": \"bar\",\n  \"userId\": 1,\n  \"id\": 101\n}"
