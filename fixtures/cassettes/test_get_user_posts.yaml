@@ -1,0 +1,174 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.28.2
+    method: GET
+    uri: https://jsonplaceholder.typicode.com/user/1/posts
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA41Wy47kNgy871cQc95DNu/kD/Yb4hzYNmeGgCV59GgkCPLvKVK22+3GIg1MD+xu
+        iWIVq0j98YnoH3yIXlqR/HV6+Z2+fO5f6PGlap0F7y+lxUrcKr3yKFkoyyLzzJWWnK46CX5N48gy
+        clWSv0ZZastKaamabHGWd4mTZK0va+hLmv62yB9NmaRSaWXUResQtyfsG1vhOLHQmGKRj4YsWkb8
+        RSatvm1sYYh3B1BIs5Sq2IV88ffRuFBNlbEyplJzCwht/7HMQEkgx5fxIFeJiricx3etMtb0gnz/
+        /fx/jH1/Zgy4PL6UImfM9n3PAGcvCXxeAUcGx6hUFMlEfdf5njqa0pwyXYSxmIT7uxSK2Ibdr+1N
+        UZLLDM60qha6prktlasQTsmJrjKvge9IyqKj4hAtQ7QEeMFxHCimSJNcEKsgQCkaWiFb4AciUsFj
+        gw6e4+iHM0eAsOVRvEymHckjyIBuooSbzuxUXQqDHK/ZA6WVtJWaqMiExQlvGZTsBISDPlNA5iSz
+        vhlmlzVPd2udWL0ArTHGo+uwKgqGPMAFgx4ocYg3GjvBgiQoTRA9Epr5YrXFE6KsaT9F1I8PRJlY
+        q+tph3FmwOrgqwqDtENN6QCMJzgL9oLULKEgmwG4lBawnA+O7hId27yw66LQu46wYghACA0gzmab
+        KlHMml2RwdRh1QprGXyze+yQSw+v85w6P89x89OZmz0P97lxf2YGImqT9kZi9mYrI0vm2nOCZIbI
+        s4nQW1y30So0aw6QFKi/V5NraDeFuXzH5sIxyENcO8w9P90+z8H9+Qx3ZZhMEoHfIiyTyu5Y66YP
+        wkAKBb9HkyzKlyFVqyUb/b0bdFXvhfc25OJGWdCeY7rgdzCEr6db6xgiopYFOmPrECZQrJWQiC+n
+        znVvIS4HLvcu1k0i9Sii/azn2PrlzJYxBFowtXTW0ut55qcfR8uM0dY7Deo3mZfYO8namzvZzhQ0
+        5FT3N1vTUbfVfC746di+biPRB5Kyjbno46n3fCsizuvdi8tzcH/9ljhWSKY+t+EDZAUWk+5BOtte
+        z8am6kbajRAG7nU87UN6H1i7F3wkbwbrrAVWL/FOwxB7ewD+rZ90a2yyMHWntTl7AZ5j5Ldvdgdr
+        RKtrN6R9+Po14qDPM1d+9Rir27cTcB+zR4PVV1FwHya9z/QG0i8h/ta9hNV1u32YfiZ/uBlwZWEV
+        7P76HAdfvjuT0K9ht1GrU09UHtGamC237YrlRUBFKb2+mtF9IHpRh3ibkiaCQ5c1+BiGfj8odqVD
+        1HJrvYBrOu+cBx+y2Uc+BIIhmh3mpz//A/2xVhqmCgAA
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      CF-Cache-Status:
+      - REVALIDATED
+      CF-RAY:
+      - 7a9b5ea62d6f190c-SIN
+      Cache-Control:
+      - max-age=43200
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 18 Mar 2023 06:20:26 GMT
+      Etag:
+      - W/"aa6-j2NSH739l9uq40OywFMn7Y0C/iY"
+      Expires:
+      - '-1'
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Pragma:
+      - no-cache
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=HOapZZaMFB02bKA%2BH0CbPK84H1S7%2BzX%2BWt4GR%2BA2RGEhH9XJAtSecp53UG7EBnQhawuTjJT3IG4%2FtMt%2FzpvTa%2FYu3TAQ7xNdQexz7o5IUDQ0eRZvP8PReDYdsgK1EAy%2FZoItoMmBFfEUC4yS0von"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Server-Timing:
+      - cf-q-config;dur=5.9999983932357e-06
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Origin, Accept-Encoding
+      Via:
+      - 1.1 vegur
+      X-Content-Type-Options:
+      - nosniff
+      X-Powered-By:
+      - Express
+      X-Ratelimit-Limit:
+      - '1000'
+      X-Ratelimit-Remaining:
+      - '999'
+      X-Ratelimit-Reset:
+      - '1679045336'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.28.2
+    method: GET
+    uri: https://jsonplaceholder.typicode.com/user/2/posts
+  response:
+    body:
+      string: !!binary |
+        H4sIAAAAAAAAA42WTY7kNgyF93MKodazyPRk8neDnCGeBUtidROwJLclFSYIcvd5pPwXV4LUohuw
+        LFPkx8en+uODc3/hz7lLKzz/Hi6/uZePfUH04dOn5alKHRkLF66Oyd15zu69CbmRWqBUpUVHrXK8
+        LB9cc/hT9wce2ddW3MzihVOQ4mIeuVQhdtl7Yk9VXMrJRUkSyfGdk+AcxHf3PLapYsO1lSGR961Q
+        RDRJjnHklakiTJE6pDuP9kni98bbh1xcq87nGHMQey/JS2gJX+AF4URZX1+Q+t8f/5fJy5kJkkFg
+        ZBgoOjCY8ozSggBVqS7kEc8PYKSS5ilBublIr4nikKaZuHDnaXw77x6so++FFTwOqdAEppX73iRv
+        MjqK2LiDtTc4ZQOCU1YEGs9SFLQj+SpZT8pPcvh85mCVInHUAyRbomj3KLXXUognzTZ38mcoiiKI
+        r+SmXIpop4sgzy3EFnTvaF4JAydKK6Dh8zxjmxxFt9fvWEyPSBUEAdY3/VZDBcejvOoHEPbViumi
+        RGd4vvHcY82sOkwB0qNSWsQq4dBUIHWubUb2MwaEZv8mFWvZyYRt+p/ik3R/PNM9FrAmmVFkPkO8
+        tVdjvU/L2phjDTKOecM5JJ2/neMyRDfy2I65CzY5a5h9fvv8gSJ3GW/tqbliFhQuzmnP1vzlwW02
+        K0Br+mTpnJ0rnnma+Q118Sy2ubhpRO7UbQFri7Xk2w2CoKVSQIgT62ghQAvSO7pXZxO5lXRoOmAA
+        6uJsQ+pRsfRGigf8hcACE85PFv7TuXBTfWnFy4T00LcyaeJVhWwFrb0wGZuwumIlo+V9ik+Qtmgo
+        C1ZR+uwQYguZeaPPRZ+MDIOhFqLW1FeOVmyusrFRSRqSNo4UF5N1NAqVxcQKgtt8vDfS+VC7k32q
+        d6Uy9dS2yN0OnsT48xljr2Brocp0be8/HGGa810CnPQMTTEcHNdEbmacqFq6ZiLGLVllNny7hIzI
+        AGEiYTXcGfxyMgUp4iHZjWW+vb5KHPPS5NYPFB2/Z135l//0Dc1/uXXs/u7zdMj2ofh9+qy/Q1pN
+        sY/3saObf9i1yv3qO4zVkHThgFyv68BXUUnzegE+WeOv5xopQNmQ9zr23XUM3uEKQA0Pt7DtM/H6
+        Ngk6q6A2OZiDrXcztLn6XI5JcSgfcFgnpMv/SIWqXUpbekrSbij+ZsZDdoAZ1qqy5xC8/PCvl6/N
+        Jtz6UMA69fSgbZXekiykiWxD83blbnevckElsf+mwJqMYgXtzmQXnd1rtgmUtBb1YTOrzRr5G8/e
+        FqHx3v0+nIozsWccuZqLqQu2qpAXgztC3dghvYBYy/WN5VE8BGoEP3z9DkW5mFLdCgAA
+    headers:
+      Access-Control-Allow-Credentials:
+      - 'true'
+      CF-Cache-Status:
+      - MISS
+      CF-RAY:
+      - 7a9b5ff80f401700-SIN
+      Cache-Control:
+      - max-age=43200
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Sat, 18 Mar 2023 06:21:20 GMT
+      Etag:
+      - W/"add-8VKPUO46clThjTS9/JNMO2KqAMY"
+      Expires:
+      - '-1'
+      NEL:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Pragma:
+      - no-cache
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=MTFWcJH%2BQxQn4uEUdVdZ6aCdoqRt2YPcDu8KtrBwfOfVE7hQcBralJTsoSrRa%2BuWFGUyq6KgqzoQLOcL6VnxZ3GkRbHOW5eWaJCzqPVQS8xl2p1m5r2f1dBbZWsUlfqqYYscgUIGEOoOOp5lQJ0E"}],"group":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Server-Timing:
+      - cf-q-config;dur=3.0000010156073e-06
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - Origin, Accept-Encoding
+      Via:
+      - 1.1 vegur
+      X-Content-Type-Options:
+      - nosniff
+      X-Powered-By:
+      - Express
+      X-Ratelimit-Limit:
+      - '1000'
+      X-Ratelimit-Remaining:
+      - '999'
+      X-Ratelimit-Reset:
+      - '1679120503'
+      alt-svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    status:
+      code: 200
+      message: OK
+version: 1
